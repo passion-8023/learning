@@ -9,3 +9,11 @@
 然后linus就用了两周的时间自己写了一个版本控制系统，也就是我们现在都在用的Git
 
 my stupid boss still prefers SVN
+
+关联远程仓库：git remote add origin git@github.com:passion-8023/learning.git
+
+将本地库的内容推送远程库：git push -u origin master
+
+查看远程库的信息：git remote -v
+
+删除远程库：git remote rm <name>
